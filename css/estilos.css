@@ -1,0 +1,262 @@
+/* ---ENCABEZADOS--- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'FJalla One', sans-serif;
+  font-weight: normal;
+}
+h1 {
+  color: #fff;
+  font-size: 40px;
+  line-height:1.5em;
+  letter-spacing: -.2px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+h1 strong {
+  color: #026fff;
+}
+h2{
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.project-work{
+  margin: 10px 0px;
+}
+.project-date{
+  margin: 10px 0px;
+}
+.project-url{
+  margin: 10px 0px;
+}
+/* ---BACKGROUNDS--- */
+.hero{
+  /* background-image: url('../images/portada.jpg'); */
+  background-color: #1b2127;
+  /* background-size: 500px 300px; */
+  /* background-repeat: no-repeat; /*Para que la imagen de fondo no se repita*/ */
+  /* background-position-x: right; */
+}
+.header{
+  color: #fff;
+  background-color: #1b2127;
+}
+.header a{
+  color: #fff;
+}
+.header a:hover {
+  background: #77032d;
+}
+.footer{
+  background-color: #1b2127;
+  color: white;
+}
+.footer a{
+  color: white;
+}
+.portfolio{
+  background: #fafafa;
+}
+.event-detail{
+  background-color: white;
+}
+.event{
+  background-color: #f4fbff;
+}
+
+/* ---SECCIONES--- */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.hero {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-image{
+  object-fit: cover;
+}
+.project-details {
+  width: 500px;
+  /* margin: 0px auto; /*Una forma de centrar el contenido*/ */
+}
+.project-imageContainer{
+  width: 500px;
+}
+.project-title{
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.project-description{
+  font-size: 20px;
+}
+.project strong {
+  font-family: 'FJalla One', sans-serif;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+.menu{
+  height: inherit;
+}
+ol,ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: inherit;
+}
+.header ol {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+.header ol li {
+  height: inherit;
+}
+.header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+.portfolio{
+  padding: 20px;
+}
+.project {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+}
+.footer img{
+  vertical-align: middle;
+}
+.footer a{
+  text-decoration: none;
+}
+.event-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.event{
+  margin:10px;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.event img{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+.event-detail{
+  margin: 20px 40px;;
+  margin-top: -40px;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+.event-desciption{
+  text-align: left;
+}
+.event-url{
+  color: #056fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.event-list-title{
+  margin-left: 20px;
+}
+.contact{
+  background-color: #056fff;
+  color: white;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social{
+  /* border: 1px solid red; */
+}
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.social-link.twitter{
+  background-image: url('../images/twitter.svg');
+}
+.social-link.facebook{
+  background-image: url('../images/facebook.svg');
+}
+.social-link.github{
+  background-image: url('../images/github.svg');
+}
+.social-link.instagram{
+  background-image: url('../images/instagram.svg');
+}
+.form-email{
+  margin-left: 10px;
+}
+.form-email input{
+  border-color: gray;
+  padding: 10px 20px 10px 25px;
+  background-image: url('../images/envelope.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  border-radius: 5px;
+  border-style: solid;
+}
+.form-email button {
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.form-email h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  margin: 0 auto;
+  width: 1000px;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
